@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "../node_modules/.bin/webpack-serve --open",
+    "test": "../node_modules/.bin/jest --watchAll"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/../__setupTests.js"
+  }
+}

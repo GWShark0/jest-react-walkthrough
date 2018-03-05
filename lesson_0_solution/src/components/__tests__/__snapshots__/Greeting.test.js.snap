@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeting should display name (snapshot) 1`] = `
+<h1
+  className="greeting"
+>
+  Hello, 
+  World
+  !
+</h1>
+`;
+
+exports[`Greeting should render 1`] = `
+<h1
+  className="greeting"
+>
+  Hello, 
+  !
+</h1>
+`;
