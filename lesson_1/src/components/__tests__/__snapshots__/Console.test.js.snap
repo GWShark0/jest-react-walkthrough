@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Console should render 1`] = `
+<div
+  className="console"
+>
+  <button
+    className="green-button button"
+    onClick={[Function]}
+  >
+    Code Green
+  </button>
+  <button
+    className="yellow-button button"
+    onClick={[Function]}
+  >
+    Code Yellow
+  </button>
+  <button
+    className="red-button button"
+    onClick={[Function]}
+  >
+    Code Red
+  </button>
+</div>
+`;

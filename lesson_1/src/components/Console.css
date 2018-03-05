@@ -1,0 +1,65 @@
+.console {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  transition: background-color 200ms ease-in-out;
+}
+
+.console--green {
+  background-color: #4CAF50;
+}
+
+.console--yellow {
+  background-color: #FFEB3B;
+}
+
+.console--red {
+  background-color: #F44336;
+}
+
+.console .button:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.green-button,
+.yellow-button,
+.red-button {
+  width: 20rem;
+}
+
+.green-button {
+  background-color: #4CAF50;
+  border-color: #28612B;
+  color: #28612B;
+}
+
+.green-button:hover {
+  background-color: #68d86e;
+}
+
+.yellow-button {
+  background-color: #FFEB3B;
+  border-color: #FFA61F;
+  color: #FFA61F;
+}
+
+.yellow-button:hover {
+  background-color: #fffa51;
+}
+
+.red-button {
+  background-color: #F44336;
+  border-color: #BD241D;
+  color: #BD241D;
+}
+
+.red-button:hover {
+  background-color: #fd5c4a;
+}

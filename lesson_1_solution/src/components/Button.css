@@ -1,0 +1,15 @@
+.button {
+  padding: 2.5rem;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  background: none;
+  border: 0.25rem solid #ccc;
+  border-radius: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-4%);
+}
