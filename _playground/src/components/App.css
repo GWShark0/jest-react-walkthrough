@@ -1,0 +1,11 @@
+.app {
+  padding-top: 200px;
+  font-size: 126px; /* maxed out for Chrome, wtf? */
+}
+
+.ball {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: center bottom;
+}
