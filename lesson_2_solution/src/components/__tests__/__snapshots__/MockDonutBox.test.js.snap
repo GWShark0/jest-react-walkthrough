@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonutBox should render (mocked) 1`] = `
+<div
+  className="donut-box"
+>
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+  <span />
+</div>
+`;

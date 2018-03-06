@@ -1,0 +1,9 @@
+.donut {
+  position: relative;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.donut:hover {
+  transform: translateY(-10%);
+}
